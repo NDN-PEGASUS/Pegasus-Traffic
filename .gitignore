@@ -1,0 +1,7 @@
+./idea
+
+/ndn_names/*.txt
+/ndn-traffic-traces/*/*.zst
+/ndn-traffic-traces/*/*.pcapng
+/statistics/*.txt
+/statistics/optimal_formats/*.txt

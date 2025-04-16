@@ -1,0 +1,1 @@
+Check the output of `optimal_format.py` to find the optimal parsable name format.
