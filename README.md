@@ -1,21 +1,3 @@
-<!-- # Pegasus-Traffic
-
-This is the code repository for Pegasus's preprocessing of real traffic and the computation of the optimal parsable name format.
-
-Steps:
-
-- First, download the traffic data from `2023-04-19` to `2023-05-26` from [https://github.com/tntech-ngin/ndn-traffic-traces](https://github.com/tntech-ngin/ndn-traffic-traces) and place them in the `ndn-traffic-traces` directory.
-
-- Enter the `ndn-traffic-traces` directory and run the `readZst.py` script (with `scapy` version == 2.5.0) to extract NDN names and write them into text files in the `ndn_names` directory. 
-
-- Enter the `ndn_names` directory and run the `cntNdn.py` script to count the occurrences of all names and write the results to the `name_counts.txt` file in the `statistics` directory.
-
-- Enter the `statistics` directory and run the `statistics_xxx.py` scripts as needed to observe the parsable name ratio under different name parsing schemes.
-
-- In the `statistics` directory, run the `format_counts.py` script to generate the `format_counts.txt` file, which counts the occurrences of different name formats.
-
-- In the `statistics` directory, run the `optimal_format.py` script to obtain the optimal parsable name format under Tofino2 programmable switch hardware constraints. -->
-
 # Pegasus-Traffic
 
 > Preprocessing and analysis pipeline for real-world NDN traffic traces to determine the **optimal parsable name format** for Tofino2 programmable switches.
@@ -24,7 +6,7 @@ Steps:
 
 ## 📌 Overview
 
-This repository is part of the **Pegasus** project, a cross-plane forwarding acceleration architecture for Named Data Networking (NDN). It provides a workflow to:
+This repository is part of the [**Pegasus**](https://github.com/NDN-PEGASUS) project, a cross-plane forwarding acceleration architecture for Named Data Networking (NDN). It provides a workflow to:
 
 - Extract NDN names from real traffic traces.
 - Count name occurrences.
