@@ -80,3 +80,10 @@ Generates `format_counts.txt`, summarizing the frequency of each name format.
 python3 optimal_format.py
 ```
 Outputs the optimal name format under hardware constraints of Tofino2.
+
+### Step 7: Extract Names
+
+```shell
+python3 extractNames.py
+```
+Prepares `names.txt` for for inserting FIB entries into forwarders.
