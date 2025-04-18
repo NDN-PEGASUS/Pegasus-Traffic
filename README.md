@@ -86,4 +86,4 @@ Outputs the optimal name format under hardware constraints of Tofino2.
 ```shell
 python3 extractNames.py
 ```
-Prepares `names.txt` for for inserting FIB entries into forwarders.
+Prepares `names.txt` for inserting FIB entries into forwarders.
