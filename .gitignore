@@ -1,5 +1,7 @@
 ./idea
 
+.DS_Store
+
 /ndn_names/*.txt
 /ndn-traffic-traces/*/*.zst
 /ndn-traffic-traces/*/*.pcapng
