@@ -50,7 +50,7 @@ def process_ndn_packets(packets, file):
         # print('\n')
         if 'UDP' in packet:
             cnt += 1
-            payload = packet['UDP'].payload     # Type：scapy.packet.Raw
+            payload = packet['UDP'].payload     # Type: scapy.packet.Raw
             payload_bytes = payload.build()     # converse to bytes
             # start to parse NDN
             index = 0
