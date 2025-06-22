@@ -87,3 +87,16 @@ Outputs the optimal name format under hardware constraints of Tofino2.
 python3 extractNames.py
 ```
 Prepares `names.txt` for inserting FIB entries into forwarders.
+
+## 📖 Citation
+
+If you find Pegasus helpful, please cite our [paper](https://authors.elsevier.com/sd/article/S1389-1286(25)00441-4): 
+
+```
+@article{long2025pegasus,
+  title={{Pegasus: A Practical High-Speed Cross-Platform NDN Forwarder}},
+  author={Long, Xingguo and Huang, Kun and Yang, Rongwei and Dai, Qingguo and Li, Zhenyu},
+  journal={Computer Networks},
+  year={2025}
+}
+```
